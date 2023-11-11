@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scripting page</title>
+    <script>
+        function greetingshow()
+        {
+            alert("Goodmorning dear Vikash!")
+        }
+        function dateshow()
+        { 
+            var today=new Date();
+            alert(today);
+        }
+        function backcolor()
+        {
+            document.bgColor="bisque";
+            document.getElementsByTagName("p")[0].style.color="green";
+
+        }
+    </script>
+</head>
+<body>
+    <p>
+        hough he hailed from a socially backward caste, he rose to unparalleled height. 
+        As a result of casteism, he was subjected to blatant discrimination at school.  
+        However, it did not hold him back from attaining excellent marks and pursuing higher education. 
+        He was determined to bring about a radical change in society.  
+    </p>
+    <button onclick="greetingshow()">Greeting</button>
+    <button onclick="dateshow()">Date</button>
+    <button onclick="backcolor()">BackColor</button>
+</body>
+</html>
